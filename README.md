@@ -23,11 +23,14 @@ Data sources
 * LR:(180º,-56º)
 
 ### Precipitation
-* GeoTiff from [TRMM](ftp://trmmopen.gsfc.nasa.gov/pub/gis/)
+* GeoTiff from [TRMM](http://pmm.nasa.gov/TRMM/realtime-3hr-7day-rainfall)(ftp://trmmopen.gsfc.nasa.gov/pub/gis/)
 * UL:(-180º,50º)
 * LR:(180º,-50º)
 
 Data import
 -----------
 
-TODO raster2postgis
+
+```bash
+raster2pgsql -s 4326 -t 100x100 -c -C -I -M glc2000_v1_1.tif landcover > tif.sql
+```
