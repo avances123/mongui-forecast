@@ -12,12 +12,22 @@ Data sources
 ------------
 
 ### Elevation
-TODO
+* GeoTiff from [CGIAR](http://srtm.csi.cgiar.org/index.asp)
+* UL:(-180º,60º) 
+* LR:(180º,-60º)
+
 
 ### Land Cover
-http://bioval.jrc.ec.europa.eu/products/glc2000/products.php
+* GeoTiff from [glc2000](http://bioval.jrc.ec.europa.eu/products/glc2000/products.php)
+* UL:(-180º,90º)
+* LR:(180º,-56º)
 
 ### Precipitation
-TODO
+* GeoTiff from [TRMM](ftp://trmmopen.gsfc.nasa.gov/pub/gis/)
+* UL:(-180º,50º)
+* LR:(180º,-50º)
 
+Data import
+-----------
 
+TODO raster2postgis
