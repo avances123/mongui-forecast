@@ -15,7 +15,7 @@ Data sources
 TODO
 
 ### Land Cover
-TODO
+http://bioval.jrc.ec.europa.eu/products/glc2000/products.php
 
 ### Precipitation
 TODO
